@@ -1,0 +1,146 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "exceptionDemo.try_catch_finally.stackTrace.main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CatchException",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "exceptionDemo.try_catch_finally.CatchException",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "arrayListMethod.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>(1)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "enumerationMethod.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EnumTest<src>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "enums.EnumTest",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>(2)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "hashCodeDemo.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassDemo<src>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "reflectionMethod.ClassDemo",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>(3)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "toStringmethod.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>(4)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "transferMethod.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<src>(5)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "varargsMethod.Main",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-wrapperDemo<src>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "wrapperMethod.wrapperDemo",
+            "args": "",
+            "projectName": "src"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
+        }
+    ]
+}
