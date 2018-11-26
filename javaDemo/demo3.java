@@ -36,6 +36,9 @@ public class demo3 {
         int temp = test.a;
         test.a = test.b;
         test.b = temp;
+        test = null;
+        // 加了这一行仍然能构访问main函数中的dateTest
+        // 该函数中传递的参数只是main 函数的dateTest的一个复制
     }
 
     public static void main(String[] args) {
