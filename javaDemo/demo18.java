@@ -29,6 +29,18 @@ public class demo18 {
          * 构造
          * 这个杀手不太冷
          */
+
+        /**
+         * new Demo();
+         * new Demo();
+         * 长在红旗下的好少年！
+         * 忠犬八公(静态代码块只在类生成的时候运行一次！)
+         * 
+         * 根红苗正的四好青年
+         * 构造
+         * 根红苗正的四好青年
+         * 构造
+         */
     }
 }
 
@@ -54,5 +66,9 @@ class Demo {
     static {
         System.out.println("长在红旗下的好少年！");
         System.out.println(stringS);
+    }
+
+    {
+        System.out.println("根红苗正的四好青年");
     }
 }
