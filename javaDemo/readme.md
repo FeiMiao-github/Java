@@ -27,3 +27,4 @@
 * demo20: Object toString() 方法和 hashCode() 方法
 * demo21: `"=="` 和 `"equals()"` 方法
 * demo22: 重写 `equals()` 方法
+* demo23: 单例类 (singleton)
