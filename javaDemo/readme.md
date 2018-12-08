@@ -21,6 +21,9 @@
 > 在引用变量进行强制类型转换时，为了避免异常， 可以首先用 instanceof 进行判断是否可以转换成功
 * demo17: 使用继承时的注意点
 * demo18: java类的新成员，初始化代码块
+> 运行顺序: 类成员变量(class fields) -> 静态代码块 -> 类对象成员变量(instance fields) ->代码块 -> 对象构造器
+> 类创建的时候加载类成员  类对象创建的时候加载类对象成员
 * demo19: 一个关于自动装箱、自动拆箱的不重要的问题  
 * demo20: Object toString() 方法和 hashCode() 方法
 * demo21: `"=="` 和 `"equals()"` 方法
+* demo22: 重写 `equals()` 方法
