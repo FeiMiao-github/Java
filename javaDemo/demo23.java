@@ -6,6 +6,7 @@ public class demo23 {
         // System.out.println(singleton1.getSingletonInstance());
         // System.out.println(singleton2.getSingletonInstance());
         // System.out.println(singleton3.getSingletonInstance());
+        // System.out.println(singleton4.getSingletonInstance());
         System.out.println(singleton4.getSingletonInstance());
     }
 }
@@ -79,5 +80,26 @@ class singleton4 {
     }
 
     private static singleton4 instance = new singleton4();
+    // 运行顺序: 1 -> 2 -> 3
+}
+
+class singleton5 {
+    private static singleton5 instance = null;
+
+    static {
+        System.out.println("1");
+    }
+
+    private singleton5() {
+        System.out.println("2");
+    };
+
+    public static singleton5 getSingletonInstance() {
+        System.out.println("3");
+        if (instance == null) {
+            instance = new singleton5();
+        }
+        return instance;
+    }
     // 运行顺序: 1 -> 2 -> 3
 }
