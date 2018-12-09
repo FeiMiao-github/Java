@@ -30,3 +30,7 @@
 * demo23: 单例类 (singleton)
 * demo24: `final` 修饰符修饰变量
 * demo25: `final` 修饰基本变量类型和引用变量的区别
+* demo26: 编译时确定变量的值还是运行时确定编译的值
+* demo27: final 方法重写
+> private 方法不可被重写
+* demo28: 
