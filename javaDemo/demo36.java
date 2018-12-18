@@ -2,14 +2,19 @@
 /**
  * demo36
  */
-public class demo36 implements Product{
+public class demo36 implements Product, Output{
     public static void main(String[] args) {
         demo36 demo = new demo36();
         demo.test();
     }
     
     public void test() {
-        // TODO: 测试代码
+        
+        //  TODO: test code
+        Output o = new demo36();
+
+        ((demo36)o).getDate("傲来雾，花果香！");
+        o.out();
     }
 
     private String[] printDate = new String[InnerInterfaceDemo36.MAX_CACHE_LINE];
@@ -46,3 +51,6 @@ interface Product {
     int getProduceTime();
 }
 
+interface Output {
+    public void out();
+}
