@@ -12,7 +12,12 @@ public class demo40 {
 
         Cow c = new Cow();
         c.getCowLeg();
-        System.out.println(c.InnerClassNonStatic.class.getName());
+        
+        /** 
+         * 访问内部类 
+        */
+        String name = Cow.InnerClassNonStatic.class.getName();
+        System.out.println("InnerClassNonStatic in Cow, and name = " + name);
     }
 }
 
@@ -28,6 +33,9 @@ class Cow{
         return 0;
     }
 
+    /** 访问类内同名变量 */
+    String tempString = "Cow";
+
     /**
      * InnerClass 静态内部类
      */
@@ -41,8 +49,18 @@ class Cow{
      * InnerClassNonStatic 非静态内部类
      */
     public class InnerClassNonStatic {
+        String tempString = "InnerClass Non-Static";
+
         public void test() {
             System.out.println("非静态内部类中不能有静态成员");
         }
+        
+        public void getTempString() {
+            
+        }
     }
+}
+
+interface Command {
+    public void process();
 }

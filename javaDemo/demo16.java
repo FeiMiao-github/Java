@@ -9,13 +9,13 @@ public class demo16 extends Fu {
 }
 
 class Fu {
-    public getMsg() {
+    public void getMsg() {
         System.out.println("class name: " + Fu.class.getName());
     }
 }
 
 class OtherClass {
-    public getMsg() {
-        System.out.println("class name: " + OtherClass.getName());
+    public void getMsg() {
+        System.out.println("class name: " + OtherClass.class.getName());
     }
 }

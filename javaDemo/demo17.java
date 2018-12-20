@@ -21,5 +21,6 @@ class Sub extends demo17 {
     public static void main(String[] args) {
         Sub subInstance = new Sub();
         // this.name 为null, 调用了 sub 类的 test() 方法
+        System.out.println(subInstance.name);
     }
 }

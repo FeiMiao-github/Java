@@ -48,7 +48,7 @@ class Demo {
     String string = "皮皮虾号";
 
     static String stringS = "忠犬八公";
-    private int num = 1;
+    // private int num = 1;
 
 
     public static void sayS() {
