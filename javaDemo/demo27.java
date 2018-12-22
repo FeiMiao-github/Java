@@ -21,6 +21,7 @@ class Fu {
         System.out.println("渺沧海之一粟");
     }
 
+    @SuppressWarnings("unused")
     private final void printString() {
         System.out.println("哀吾生之须臾");
     }

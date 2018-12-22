@@ -1,3 +1,5 @@
+package demo9;
+
 public class Ostrich extends Bird {
     @Override
     public void fly() {

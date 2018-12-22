@@ -10,7 +10,7 @@ public class demo36 implements Product, Output{
     
     public void test() {
         
-        //  TODO: test code
+        // test code
         Output o = new demo36();
 
         ((demo36)o).getDate("傲来雾，花果香！");

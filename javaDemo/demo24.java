@@ -1,7 +1,9 @@
 public class demo24 {
     private static final String staticString = "static string";
+    @SuppressWarnings("unused")
     private final String string = "string";
 
+    @SuppressWarnings("unused")
     private final static String staticStrings;
     private final String strings;
 
@@ -12,6 +14,7 @@ public class demo24 {
     public static void main(String[] args) {
         System.out.println(staticString);
         
+        @SuppressWarnings("unused")
         demo24 demo = new demo24(); // 
     }
 

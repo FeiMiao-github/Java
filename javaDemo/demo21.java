@@ -25,10 +25,10 @@ public class demo21 {
     }
 
     public void test2() {
-        Integer i1 = 30;
-        Float i2 = 30f;
-        Double i3 = 30.0;
-        Character i4 = (char) 30;
+        // Integer i1 = 30;
+        // Float i2 = 30f;
+        // Double i3 = 30.0;
+        // Character i4 = (char) 30;
 
         // System.out.println("i1 == i2 ---- " + (i1 == i2));
         // System.out.println("i1 == i3 ---- " + (i1 == i3));
@@ -47,7 +47,9 @@ public class demo21 {
         // i > 128 时true
         System.out.println("i1 equals i2" + i1.equals(i2)); // true
 
+        @SuppressWarnings("deprecation")
         Integer i3 = new Integer(i);
+        @SuppressWarnings("deprecation")
         Integer i4 = new Integer(i);
 
         System.out.println("i3 == i4? --- " + (i3 == i4)); // false
