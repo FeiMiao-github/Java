@@ -54,6 +54,8 @@
 * demo40: 内部类同名变量访问
 * demo41: 外部类访问内部类变量
 * demo42: 静态类变量访问规则
+* demo43: 使用内部类
+* demo44： 访问非静态内部类的构造器
 # 2
 <strong>./run_java.ps1 使用方法</strong>
 ./run_java.ps1 -FileName 无后缀文件名或路径, 如:
