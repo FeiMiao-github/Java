@@ -1,5 +1,5 @@
 /**
- * demo39 使用局部内部类重构demo38
+ * demo39 使用匿名内部类重构demo38
  */
 public class demo39 {
     public static void main(String[] args) {
