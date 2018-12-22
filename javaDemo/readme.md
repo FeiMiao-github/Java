@@ -1,4 +1,6 @@
 
+# readme
+## 1
 * demo1: 对象、引用和指针
 * demo2: 返回this
 * demo3: 参数的传递机制
@@ -51,3 +53,10 @@
 * demo39: 使用局部内部类重构demo38
 * demo40: 内部类同名变量访问
 * demo41: 外部类访问内部类变量
+* demo42: 静态类变量访问规则
+# 2
+<strong>./run_java.ps1 使用方法</strong>
+./run_java.ps1 -FileName 无后缀文件名或路径, 如:
+>`./run_java.ps1 -FileName demo1`
+
+>`./run_java.ps1 -FileName demo9`
