@@ -66,7 +66,6 @@ class TargetArray {
 }
 
 /* Command */
-@SuppressWarnings("all")
 interface Command {
     public void process();
 }
