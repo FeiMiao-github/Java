@@ -3,7 +3,7 @@
  */
 public class demo42 {
     public static void main(String[] args) {
-        demo42 d = new demo42();
+        demo44 d = new demo44();
 
         d.test();
     }

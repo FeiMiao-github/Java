@@ -30,6 +30,7 @@ public class demo43 {
 }
 
 class OuterClass {
+    // 鸡肋的局部内部类
     static {
         class InnerClassInStaticCode {
             private int num = 3;
