@@ -60,7 +60,7 @@
 * demo46: 对于匿名内部类的变量自动使用 final 修饰
 * demo47: 命令模式2
 * demo48: 使用Lambda表达式
-
+* demo49: Lambda表达式的几种简化写法
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
