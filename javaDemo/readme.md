@@ -61,6 +61,8 @@
 * demo47: 命令模式2
 * demo48: 使用Lambda表达式
 * demo49: Lambda表达式的几种简化写法
+* demo50: Lambda表达式引用方法和构造器
+
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>

@@ -1,4 +1,3 @@
-
 public class demo49 {
 	public static void main(String[] args) {
 		new demo49().test();

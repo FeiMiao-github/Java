@@ -1,4 +1,4 @@
-/* 对象、引用和指针*/ 
+/* 对象、引用和指针 */ 
 
 public class demo1 {
     private String name = "haha";
