@@ -62,6 +62,7 @@
 * demo48: 使用Lambda表达式
 * demo49: Lambda表达式的几种简化写法
 * demo50: Lambda表达式引用方法和构造器
+* demo51: Lambda表达式创建的对象调用默认方法
 
 
 # 2
