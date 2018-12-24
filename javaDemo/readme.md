@@ -64,6 +64,9 @@
 * demo50: Lambda 表达式引用方法和构造器
 * demo51: Lambda 表达式创建的对象调用默认方法
 * demo52: 使用 Lambda 表达式调用 Arrays 的类方法
+* demo53: 枚举类的成员、变量、方法和构造器
+    > 为每个枚举量单独实现接口方法
+* demo54: 包含抽象方法的枚举类
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
