@@ -69,6 +69,7 @@
 * demo54: 包含抽象方法的枚举类
 * demo55: 强制垃圾回收
 * demo56: 在 `finalize()` 方法中复活
+* demo57: 关于 `public static void main(String[] args)`
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
