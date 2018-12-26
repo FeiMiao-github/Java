@@ -70,6 +70,7 @@
 * demo55: 强制垃圾回收
 * demo56: 在 `finalize()` 方法中复活
 * demo57: 关于 `public static void main(String[] args)`
+* demo58: 使用 Scanner 获取输入
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
