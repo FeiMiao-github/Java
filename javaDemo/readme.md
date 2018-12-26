@@ -70,7 +70,9 @@
 * demo55: 强制垃圾回收
 * demo56: 在 `finalize()` 方法中复活
 * demo57: 关于 `public static void main(String[] args)`
-* demo58: 使用 Scanner 获取输入
+* demo58: 使用 `Scanner` 获取输入
+* demo59: 使用 `System` 类获取环境变量
+* demo60: 使用 `System` 获取当前时间的方法
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>

@@ -71,7 +71,7 @@ class Input{
         ArrayList<String> s = new ArrayList<String>();
 
         Scanner inputString = new Scanner(System.in);
-        inputString.useDelimiter(" ");
+        // inputString.useDelimiter(" ");
         while (inputString.hasNext()) {
             String string = inputString.next();
             if (string.equals("quit\n") || string.equals("q")
