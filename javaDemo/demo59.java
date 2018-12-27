@@ -38,5 +38,9 @@ class Envar {
         props.store(new FileOutputStream("props.txt"), "System Properties");
 
         System.out.println(System.getProperty("os.name"));
+
+        // 获取 java.library 的路径
+        System.out.println("java.library 路径 start: [" + System.getProperty("java.library.path"));
+        System.out.println("] end!");
     }
 }
