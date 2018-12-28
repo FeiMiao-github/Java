@@ -75,6 +75,8 @@
 * demo60: 使用 `System` 获取当前时间的方法
 * demo61: `identityHashCode()` 返回精确的 `hashCode`
 * demo62: 加载文件和动态链接库
+* demo63: `Runtime` 类打开 `.exe`, 访问 JVM 环境
+
 # 2
 <strong>./run_java.ps1 使用方法</strong>
 ./run_java.ps1 -FileName 无后缀文件名或路径, 如:
