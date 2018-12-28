@@ -76,6 +76,8 @@
 * demo61: `identityHashCode()` 返回精确的 `hashCode`
 * demo62: 加载文件和动态链接库
 * demo63: `Runtime` 类打开 `.exe`, 访问 JVM 环境
+* demo64: `String`, `StringBuffer`, `StringBuilder`
+* demo65: Class `Math`
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
