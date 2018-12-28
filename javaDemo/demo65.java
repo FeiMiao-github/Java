@@ -8,11 +8,11 @@ public class demo65 {
 			
 			@Override
 			public void mathTest() {
-				// »¡¶È×ª»»Îª½Ç¶È£¬ ½Ç¶È×ª»»Îª»¡¶È
+				// å¼§åº¦è½¬æ¢ä¸ºè§’åº¦ï¼Œ è§’åº¦è½¬æ¢ä¸ºå¼§åº¦
 				System.out.println("Math.toDegrees(1.57) --- "+ Math.toDegrees(1.5707964));
 				System.out.println("Math.toRadians(90) --- " + Math.toRadians(90));
 				
-				// ¼ÆËã·´ÓàÏÒ
+				// è®¡ç®—åä½™å¼¦
 				System.out.println("Math.acos(Math.PI) --- " + Math.acos(Math.PI));
 			}
 		}.mathTest();
