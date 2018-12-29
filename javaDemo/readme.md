@@ -78,6 +78,8 @@
 * demo63: `Runtime` 类打开 `.exe`, 访问 JVM 环境
 * demo64: `String`, `StringBuffer`, `StringBuilder`
 * demo65: Class `Math`
+* demo66: Class `Random` and Class `ThreadLocalRandom`
+* demo67: Class `BigDecimal` and `float` and `double`
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
