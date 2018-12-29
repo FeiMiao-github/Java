@@ -80,6 +80,10 @@
 * demo65: Class `Math`
 * demo66: Class `Random` and Class `ThreadLocalRandom`
 * demo67: Class `BigDecimal` and `float` and `double`
+* demo68：Java 的日期时间类 --- Class `Date`
+    > `set` 的延迟
+    > `Calendar` 的容错性检查
+    
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
