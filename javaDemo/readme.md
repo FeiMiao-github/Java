@@ -34,7 +34,7 @@
 * demo25: `final` 修饰基本变量类型和引用变量的区别
 * demo26: 编译时确定变量的值还是运行时确定编译的值
 * demo27: `final` 方法重写
-> private 方法不可被重写
+    > private 方法不可被重写
 * demo28: 不可变类就是实例的实例变量是不可变的类
 * demo29: 引用类型变量指向的对象不可变
 * demo30: 缓存实例的不可变类
@@ -83,7 +83,8 @@
 * demo68：Java 的日期时间类 --- Class `Date`
     > `set` 的延迟
     > `Calendar` 的容错性检查
-    
+* demo69: java.time package
+* demo70：正则表达式
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
