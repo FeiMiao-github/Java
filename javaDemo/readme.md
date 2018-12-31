@@ -85,6 +85,8 @@
     > `Calendar` 的容错性检查
 * demo69: java.time package
 * demo70：正则表达式
+* demo71: 正则表达式
+* demo72: 访问文件和目录
 
 # 2
 <strong>./run_java.ps1 使用方法</strong>
