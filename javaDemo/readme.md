@@ -167,6 +167,7 @@
 
 * demo73 访问文件和目录
 
+* demo74 文件过滤器
 # 2
 <strong>./run_java.ps1 使用方法</strong>
 ./run_java.ps1 -FileName 无后缀文件名或路径, 如:
