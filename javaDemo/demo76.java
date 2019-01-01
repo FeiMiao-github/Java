@@ -17,8 +17,13 @@ public class demo76 {
 //				System.out.println("hasRead" + hasRead);
 				System.out.print(new String(cbuf, 0, hasRead));
 			}
+
+			System.out.println();
+			System.out.println("[MarkSupported]" + fReader.markSupported());
 		} finally {
 			fReader.close();
 		}
 	}
 }
+/*编码格式 UTF-8
+* 若使用其他格式可能会出现 NullPointerException */
