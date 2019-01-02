@@ -168,6 +168,24 @@
 * demo73 访问文件和目录
 
 * demo74 文件过滤器
+
+* demo75 stream `FileInputStream`
+
+* demo76 stream `FileReader`
+
+* demo77 实现文件的复制功能
+
+* demo78 stream `FileWriter`
+
+* demo79 stream `PrintStream`
+
+* demo80 stream `FileInputStream, FileReader`
+
+* demo81 stream `StringReader, StringWriter`
+
+* demo82 stream `InputStreamReader`
+
+* demo83 stream `PushbackReader`
 # 2
 <strong>./run_java.ps1 使用方法</strong>
 ./run_java.ps1 -FileName 无后缀文件名或路径, 如:
