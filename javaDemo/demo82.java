@@ -8,6 +8,7 @@ public class demo82 {
 	
 	public void test() {
 		String s = null;
+		System.out.println("入力を開始");
 		try(
 				InputStreamReader inputStreamReader = new InputStreamReader(System.in);
 				BufferedReader bufReader = new BufferedReader(inputStreamReader)){
