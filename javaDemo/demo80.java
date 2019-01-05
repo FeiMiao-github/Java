@@ -3,7 +3,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import org.junit.jupiter.api.Test;
 //import java.util.Arrays;
 
 public class demo80 {
@@ -35,12 +34,6 @@ public class demo80 {
 		fWriter.close();
 		pWriter.close();
 		System.out.println("[Total]" + total + "bytes");
-	}
-	
-	@Test
-	public void test() {
-		byte[] n = {1, 0, 127, -128};
-		System.out.print(sTransBinary(n));
 	}
 	
 	public String sTransBinary(byte[] bArray) {
