@@ -186,6 +186,19 @@
 * demo82 stream `InputStreamReader`
 
 * demo83 stream `PushbackReader`
+
+* demo84 重定向标准输出流 重定向输入
+
+* demo85 读取Javac进程的数据
+
+* demo86  Runtime.getRuntime().exec("java ReadStandard");
+
+* demo87 虚拟机读写其它进程的数据
+
+* demo88 虚拟机读写其它进程的数据
+
+* demo89 文件内容访问类
+
 # 2
 <strong>./run_java.ps1 使用方法</strong>
 ./run_java.ps1 -FileName 无后缀文件名或路径, 如:
