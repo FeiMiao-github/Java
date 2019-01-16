@@ -1,0 +1,36 @@
+import java.util.Arrays;
+
+import testData.*;
+
+public class demo90 {	
+	private String args;
+	private demo90(String args) {
+		this.args = args;
+	}
+	
+	public demo90 valueOf(String args) {
+		return new demo90(args);
+	}
+	
+	// 正则化表达式
+	// String 类常见的方法
+	public boolean testMatch(String regex) {
+		// 判断字符串是否匹配指定的表达式
+		return this.args.matches(regex);
+	}
+	
+	// 替换所有 匹配 regex 的字符
+	public String testReplaceAll(String regex, String replacement) {
+		return this.args.replaceAll(regex, replacement);
+	}
+	
+	// 替换第一个匹配 regex 的字符串
+	public String testReplaceFirst(String regex, String replacement) {
+		return this.args.replaceFirst(regex, replacement);
+	}
+	
+	// 根据 regex 分割字符串
+	public String[] testSplit(String regex ) {
+		return this.args.split(regex);
+	}
+}
