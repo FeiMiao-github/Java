@@ -1,0 +1,23 @@
+package I18N;
+
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+import org.junit.jupiter.api.Test;
+
+/* 完成程序国际化 */
+public class demo93 {
+	public static void main(String[] args) {
+		new demo93().test();
+	}
+	
+	void test() {
+		Locale l = Locale.getDefault();
+//		ResourceBundle r = ResourceBundle.getBundle("mess", myLocale);
+	}
+	
+	@Test
+	public void t() {
+		Locale.Category.values();
+	}
+}

@@ -1,0 +1,18 @@
+package I18N;
+
+import java.util.Locale;
+
+/*
+ * 使用MessageFormat 处理包含占位符的字符串 
+ * */
+public class demo94 {
+	public static void main(String[] args) {
+		Locale myLocale = null;
+		
+		if (args.length == 2) {
+			myLocale = new Locale(args[0], args[1]);
+		} else {
+			myLocale = Locale.getDefault();
+		}
+	}
+}

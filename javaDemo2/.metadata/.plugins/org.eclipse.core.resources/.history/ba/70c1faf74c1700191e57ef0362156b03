@@ -1,0 +1,8 @@
+import java.util.Arrays;
+
+public class Test {
+	public static void main(String[] args) {
+		int[] prices = {5, 77, 1, 3, 4, 6, 44, 64, 14, 7, 8, 1}; 
+		stdOut.println("ni");
+	}
+}

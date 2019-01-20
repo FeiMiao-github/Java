@@ -1,0 +1,62 @@
+package testData;
+
+import java.util.regex.Pattern;
+
+import org.junit.jupiter.api.Test;
+
+public class RegexString {
+	private Pattern p;
+	private int num = -1;
+	
+	public String getTestString(int index) {
+		return this.testString[index];
+	}
+	
+	public String getRegexString(int index) {
+		return this.regexString[index];
+	}
+	
+	public Pattern getPattern(int index) {
+		/* TODO: */
+		if (index != num) {
+			this.p = Pattern.compile(regexString[index]);
+		}
+		
+		return p;
+	}
+	
+	@Test
+	public void test() {
+		Pattern p = Pattern.compile("123");
+	}
+	
+	// 正则化表达式字符串匹配测试类
+	private String[] testString = {
+			/* 0 */ "123abc456def789ghi",
+			
+			/* 1 regexString: 2*/
+			"卖书买书，联系13122111122\r\n"
+			+ "交朋友，联系13123145123\r\n"
+			+ "打麻将，联系13123133323\r\n",
+			
+			/*2 regexString: 3*/
+			"kongyeeku/w163.com,"
+			+ "kongyeeku@gmail.com,"
+			+ "ligang@crazyit.org,"
+			+ "wawa@abc.com\r\n",
+		};
+
+	private String[] regexString = {
+			/* 0 */
+			"^(123\\S*){1}$",
+			
+			/* 1 */
+			"((\\d){3})",
+			
+			/* 2 匹配“13”，“14”， “15”， “17”， “18” 开头11位数字*/
+			"((13\\d)|(14\\d)|(15\\d)|(17\\d)|(18\\d))\\d{8}",
+			
+			/* 3 匹配邮箱 */
+			"\\w{3,20}@\\w+\\.(com|org|cn|net|gov)",
+	};
+}

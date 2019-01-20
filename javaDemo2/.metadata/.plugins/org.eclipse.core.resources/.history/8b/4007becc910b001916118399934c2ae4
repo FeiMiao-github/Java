@@ -1,0 +1,69 @@
+package demo;
+
+import static java.util.Calendar.YEAR;// 静态导入
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class demo68 {
+
+	public static void main(String[] args) {
+		demo68 demo = new demo68();
+//		demo.test();
+		demo.calendarTest();
+	}
+	
+	public void test() {
+		// 调用 System 获取当前时间
+		long t = System.currentTimeMillis();
+		System.out.println("[System.currentTimeMillis]" + t);
+		
+		// 调用 Date 方法获取当前时间
+		System.out.println("[Date]" + new Date());
+		System.out.println("[Date]" + new Date(0l));
+	}
+	
+	public void calendarTest() {
+		Calendar calendar = Calendar.getInstance();
+		// Date 和  Calendar 相互转化
+		
+		Date date = calendar.getTime();
+		System.out.println("[Date]" + date);
+		System.out.println("[Calendar]" + "Year-" + calendar.get(YEAR));
+		System.out.println("[Calendar]" + "Month-" + calendar.get(Calendar.MONTH));
+		System.out.println("[Calendar]" + "Max_Month-" + calendar.getMaximum(Calendar.MONTH));
+		
+		// add 和 roll
+		Calendar calendar2 = Calendar.getInstance();
+		calendar2.setTime(date);
+		
+		printCalendar(calendar);
+		printCalendar(calendar2);
+		calendar2.add(Calendar.MONTH, 1);
+		System.out.print("[Month+1]");
+		printCalendar(calendar2);
+		calendar2.add(Calendar.MONTH, -15);
+		System.out.print("[Month-12]");
+		printCalendar(calendar2);
+		
+		calendar2.setTime(date);
+		calendar2.roll(Calendar.MONTH, 1);
+		printCalendar(calendar2);
+		/* 区别在于是否会“进位” */
+		
+		/* Calendar 容错性检查  默认具有较高的容错性*/
+		calendar2.set(Calendar.MONTH, 14);
+		System.out.print("[Set_Month_14]");
+		printCalendar(calendar2);
+		calendar2.setLenient(false); // 关闭默认检查
+		calendar2.set(Calendar.MONTH, 14);
+		System.out.print("[calendar2]");
+		printCalendar(calendar2);
+	}
+	
+	public void printCalendar(Calendar c) {
+		System.out.println("[Calendar]" + "Year-" + c.get(Calendar.YEAR)
+				+ ", Mont-" + c.get(Calendar.MONTH) 
+				+ ", Day-" + c.get(Calendar.DAY_OF_MONTH));
+	}
+} 

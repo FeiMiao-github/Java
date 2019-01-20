@@ -1,0 +1,49 @@
+package regex;
+
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import testData.RegexString;
+
+public class demo91 {
+	public static void main(String[] args) {
+		demo91 demo = new demo91();
+		
+		demo.test2();
+	}
+	
+	public void test() {
+		/* 正则化表达式要先被编译成 Pattern 对象 */
+		Pattern p = Pattern.compile("a*b"); 
+		/* 创建 Matcher 对象 */
+		Matcher m = p.matcher("aaaaab");
+		System.out.println(m.matches());
+		
+		boolean b = Pattern.matches("A.b", "Acb");
+		System.out.println("[A.b]" + b);
+	}
+	
+	public void test1() {
+		RegexString s = new RegexString();
+		String testString = s.getTestString(1);
+		Pattern p = s.getPattern(2);
+		Matcher m = p.matcher(testString);
+		
+		while (m.find()) {
+			System.out.println(m.group() + "[start: "+ m.start() + ", end: " + m.end() + "]");
+		}
+	}
+	
+	// lookingAt, matches
+	public void test2() {
+		RegexString s = new RegexString();
+		String  teString = s.getTestString(2);
+		String regexString = s.getRegexString(3);
+		String[] testStrings = Pattern.compile(teString).split(",");
+		
+		System.out.println(Arrays.toString(testStrings));
+		Pattern p = Pattern.compile(regexString);
+		Matcher m = p.matcher(teString);
+	}
+}

@@ -1,0 +1,24 @@
+/**
+ * demo70 正则表达式
+ *  */
+public class demo70 {
+	public static void main(String[] args) {
+		demo70 demo = new demo70();
+		
+		switch (1) {
+		default:
+			demo.test();
+			return;
+		case 0:
+			
+			break;
+		}
+	}
+	
+	public void test() {
+		String str1 = new String("hello, world!");
+		String str2 = str.replaceFirst("\\w*", "123");
+		System.out.println("[String]" + str2);
+	}
+}
+

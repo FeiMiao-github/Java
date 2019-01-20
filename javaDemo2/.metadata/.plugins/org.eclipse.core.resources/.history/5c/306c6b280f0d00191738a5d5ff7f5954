@@ -1,0 +1,17 @@
+
+public class demo73 {
+	public static void main(String[] args) {
+		demo73 demo = new demo73();
+		switch (0) {
+		case 0:
+			demo.test();
+			break;
+		default:
+			break;
+		}
+	}
+	
+	public void test() {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package demo;
+
+import java.util.Random;
+
+/* 线程安全ThreadLocalRandom和Random */
+public class demo66 {
+	public static void main(String[] args) {
+		new demo66().test();
+	}
+	
+	public void test() {
+		Byte[] bytes = new Byte[] {1, 2, 3, 4};
+		Random random = new Random();
+		System.out.println("boolean >>>" + random.nextBoolean());
+		System.out.println("Double >>>" + random.nextDouble());
+		System.out.println("Int >>> " + random.nextInt());
+		System.out.println("Byte" + random.nextBytes(bytes));
+	}  
+}
