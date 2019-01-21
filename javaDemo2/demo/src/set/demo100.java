@@ -1,6 +1,7 @@
 package set;
 
 import java.util.Collection;
+import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -9,7 +10,7 @@ public class demo100 {
 	public static void main(String[] args) {
 		demo100 demo = new demo100();
 		
-		demo.test1();
+		demo.test2();
 	}
 	
 	public void test0() {
@@ -44,6 +45,23 @@ public class demo100 {
 		
 		/* 使用 Lambda 表达式来遍历集合元素 */
 		it.forEachRemaining(obj -> System.out.println("迭代元素" + obj));
+	}
+	
+	/* 使用 foreach 循环遍历集合元素 */
+	public void test2() {
+		@SuppressWarnings("unchecked")
+		Collection<Object> c = (Collection<Object>)prepare();
+		
+		for (Object o: c) {
+			String book = (String)o;
+			System.out.println(book);
+			
+			if (book.equals("水浒传")) {
+				c.remove(book);
+			}
+		}
+		
+		System.out.println(c);
 	}
 	
 	public Collection<?> prepare() {
