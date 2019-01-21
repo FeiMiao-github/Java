@@ -1,3 +1,4 @@
 .javaDemo2\.metadata
 javaDemo2\demo\.settings\
 *.classpath
+*.prefs
