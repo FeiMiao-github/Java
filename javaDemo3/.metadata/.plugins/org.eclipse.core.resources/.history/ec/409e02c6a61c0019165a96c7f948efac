@@ -1,8 +1,0 @@
-package I18N;
-
-/*
- * 使用MessageFormat 处理包含占位符的字符串 
- * */
-public class demo94 {
-	
-}
