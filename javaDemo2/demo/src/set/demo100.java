@@ -1,7 +1,6 @@
 package set;
 
 import java.util.Collection;
-import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 
