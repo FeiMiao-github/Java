@@ -18,7 +18,7 @@ public class demo112 {
 		o(pq);
 		
 		pq.poll();
-		o(pq + "[poll]");
+		o(pq + "[36poll]");
 		
 		o(pq.remove());
 		o(pq);
