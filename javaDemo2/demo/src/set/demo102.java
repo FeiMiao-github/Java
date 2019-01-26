@@ -1,15 +1,13 @@
 package set;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 /* 使用Stream 操作集合 */
 public class demo102 {
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		IntStream is = IntStream.builder().add(3)
 				.add(13)
 				.add(-2)

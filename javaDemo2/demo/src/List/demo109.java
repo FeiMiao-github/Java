@@ -49,9 +49,6 @@ class ListTest {
 		List<ListTest> l = new ArrayList<ListTest>();
 		
 		ListTest lt = new ListTest(0);
-		ListTest lt1 = new ListTest(1);
-		ListTest lt2 = new ListTest(2);
-		ListTest lt3 = new ListTest(3);
 		
 		l.add(lt);
 		l.add(lt);
