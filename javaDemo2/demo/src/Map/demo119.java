@@ -2,7 +2,6 @@ package Map;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.HashMap;
 import java.util.Properties;
 
 /**
@@ -17,7 +16,6 @@ public class demo119 {
 
 	@SuppressWarnings("deprecation")
 	void test() throws Exception {
-		HashMap<String, String> hsprop = new HashMap<String, String>();
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(".\\src\\Map\\demo119.properties");
 		
